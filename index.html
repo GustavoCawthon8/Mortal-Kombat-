@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mortal Kombat 2 revolução</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="chao"></div>
+    <img id="lua" src="img2/lua.png">
+    <img id="arvore" src="img2/arvore.png">
+    <img id="nuven" src="img2/nuven.png">
+    <div id="personagens">
+      <img id="jogador" src="img/scorpian.gif">
+      <img id="inimigo" src="img2/inimigo.gif">
+    </div>
+    <div id="vidas">
+      <meter value="100" min="0" max="100" id="vidaDoJogador"></meter>
+      <h3>vs</h3>
+            <meter value="100" min="0" max="100" id="vidaDoInimigo"></meter>
+    </div>
+    
+    <div id="telaGame">
+      <h2 id="msgTelaGame">Você Morreu</h2>
+      <button id="btnRn">Reiniciar</button>
+    </div>
+  </div>
+  <nav id="controles">
+    <button id="btnLeft">left</button>
+    <button id="btnUp">up</button>
+    <button id="btnRight">right</button>
+    <!--button id="btnDown">Down</button-->
+    <nav>
+      <button id="btnSoco">soco</button>
+    </nav>
+  </nav>
+
+<script src="main.js"></script>
+</body>
+
+</html>
